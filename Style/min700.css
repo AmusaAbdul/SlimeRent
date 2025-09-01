@@ -1,0 +1,45 @@
+@media (min-width: 700px) and (max-width: 1100px) {
+    body {
+        font-size: larger;
+    }
+    .toolbar-none {
+        display: none;
+    }
+    .toggle-options button {
+        flex: 0;
+    }
+    #background-image {
+        height: 850px;
+    }
+    #background-image__box {
+        width: 90%;
+        margin: 5%;
+        padding-top: 25%;
+    }
+    .button-green {
+        height: 50px;
+        width: 170px;
+    }
+    #background-image__box h2 {
+        font-size: 250%;
+    }
+    .search-container {
+        display: none;
+    }
+    input[type="text"] {
+        width: 25%;
+    }
+    .filter-options {
+        width: 50%;
+    }
+    .search-button {
+        width: 20%;
+        height: 100%;
+    }
+    .property-box {
+    width: 48%;
+}
+    .details-box p {
+        font-size: small;
+    }
+}

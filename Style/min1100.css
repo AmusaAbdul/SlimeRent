@@ -1,0 +1,76 @@
+@media (min-width: 1101px) {
+    #toolbar {
+        display: none;
+    }
+    #background-image {
+        height: 1200px;
+        margin-top: 0;
+        padding-top: 80px;
+    }
+    .search-container {
+        display: none;
+    }
+    .search-button {
+        height: 100%;
+    }
+    .button-green {
+        height: 60px;
+        width: 200px;
+    }
+    #background-image__box {
+        width: 75%;
+        padding-top: 10%;
+    }
+    #background-image__box h2 {
+        font-size: 400%;
+    }
+    #background-image__box p {
+        font-size: large;
+        width: 80%;
+    }
+    .none {
+        margin: 10%;  
+    }
+    .property-box {
+    width: 30%;
+    }
+    .medium {
+        object-fit: cover ;
+    }
+    #large {
+        object-fit: cover;
+    }
+    .service-flex {
+        width: 20%;
+    }
+    #service-div {
+    display: flex;
+    }
+    #service-flex {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2%;
+    }
+    #Services {
+        width: 40%;
+        margin-left: 3%;
+        font-size: xx-large;
+    }
+    #agents {
+        width: 40%;
+        font-size: xx-large;
+    }
+    #agent-flex img {
+        height: 100px;
+        width: 100px;
+    }
+    #agent-flex {
+        gap: 5%;
+    }
+    #footer-input button {
+        top: 100%;
+    }
+    #footer-container {
+        font-size: x-large;
+    }
+}

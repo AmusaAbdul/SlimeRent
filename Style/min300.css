@@ -1,0 +1,19 @@
+@media (min-width: 250px) and (max-width: 700px) {
+    #toolbar-name {
+        width: 35%;
+    }
+    .toolbar-none {
+        display: none;
+    }
+    .none {
+        display: none;
+    }
+    .property-box {
+        display: block;
+        width: 100%;
+    }
+   
+    #footer-name {
+        width: 45%;
+    }
+}

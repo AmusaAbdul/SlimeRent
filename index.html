@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlimeRent</title>
+    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="./Style/min300.css">
+    <link rel="stylesheet" href="./Style/min700.css">
+    <link rel="stylesheet" href="./Style/min1100.css">
+    <link rel="stylesheet" href="./Style/index.js">
+</head>
+<body>
+    <div id="container">
+        <div id="toolbar">
+            <div id="toolbar-name">
+                SlimeRent <img id="home-svg" src="./Assets/SVG's/house-window-svgrepo-com.svg" alt="house" /> </h3>
+            </div>
+            <nav id="toolbar-nav">
+                <button id="toolbar-button" aria-label="open menu">
+                    <span id="left"></span>
+                    <span id="middle"></span>
+                    <span id="right"></span>
+                </button>
+                <ul id="toolbar-option">
+                    <li>Home</li>
+                    <li>Property Listing</li>
+                    <li>About Us</li>
+                    <li>Agents</li>
+                    <li>Contact</li>
+                    <button>Post a property</button>
+                    <button>Sign in</button>
+                </ul>
+            </nav>
+            
+        </div>
+        <div class="toolbar-none">
+            <div id="toolbar-none__name">
+                SlimeRent <img id="home-svg" src="./Assets/SVG's/house-window-svgrepo-com.svg" alt="house" /> </h3>
+            </div>
+            <div class="toolbar-none__option">
+                <button>Home</button>
+                <button>Property Listing</button>
+                <button>About Us</button>
+                <button>Agents</button>
+                <button>Contact</button>
+            </div>
+            <div class="toolbar-none__options">
+                <button>Post a property</button>
+                <button>Sign in</button>
+            </div>
+        </div>
+        <div id="background-image">
+            <img src="./Assets/Images/background image.jpg" />
+            <div id="background-image__box">
+                <button class="button-green">Real Estate</button>
+                <h2>FIND YOUR PERFECT HOME</h2>
+                <p>Discover your next home with SlimeRent.Find, lease, or buy
+                    houses effortlessly in your area with our user-friendly Web
+                    application.
+                </p>
+            </div>
+            <div class="search-container">
+                <div class="toggle-options">
+                   <button class="active">Rent</button>
+                   <button>Buy</button>
+                </div>
+                <input type="text" placeholder="Enter Location">
+                <div class="filter-options">
+                    <select>
+                        <option value="">Property Type</option>
+                    </select>
+                    <select>
+                        <option value="">Price Range</option>
+                    </select>
+                </div>
+                <button class="search-button">Search</button>
+            </div>          
+            <div class="none">
+                <div class="toggle-options">
+                    <button class="active">Rent</button>
+                    <button>Buy</button>
+                </div>
+                <div class="search-flex">
+                    <input type="text" placeholder="Enter Location">
+                    <div class="filter-options">
+                        <select>
+                            <option value="">Property Type</option>
+                        </select>
+                        <select>
+                            <option value="">Price Range</option>
+                        </select>
+                    </div>
+                    <button class="search-button">Search</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="property-container">
+          <button class="button-green2">Discover</button>
+          <h3>FEATURED PROPERTIES</h3>
+          <div id="property-wrap">
+              <div class="property-box">
+                  <div class="property-relative">
+                    <img class="modern-house" src="./Assets/Images/Modern house 1.jpg" alt="modern house">
+                    <button>For Sale</button>
+                  </div>
+                  <div class="details-box">
+                      <p class="property-text">Modern Apartment</p>
+                      <p class="location-text"> <img class="svg" src="./Assets/SVG's/location-pin-alt-1-svgrepo-com.svg" alt="location" /> Ikoyi, Lagos, Nigeria</p>
+                      <p class="property-price">#3,000,000</p>
+                      <div class="property-flex">
+                          <p> <img class="svg" src="./Assets/SVG's/bed-svgrepo-com.svg" alt=""> 3 Beds. <span> <img style="margin-left: 10px;" class="svg" src="../Assets/SVG's/bath-svgrepo-com.svg" alt=""> 3 Baths</span> </p>
+                      </div>
+                      <div class="property-flex2">
+                          <div>
+                              <p> <img class="svg" src="./Assets/SVG's/time-svgrepo-com.svg" alt="time"> posted a year ago</p>
+                          </div>  
+                          <button class="button-view">View</button>
+                      </div>
+                 </div>
+              </div>
+              <div class="property-box">
+                  <div class="property-relative">
+                      <img class="modern-house" src="./Assets/Images/Modern house 2.jpg" alt="modern house">
+                      <button>For Sale</button>
+                  </div>
+                  <div class="details-box">
+                      <p class="property-text">Modern Apartment</p>
+                      <p class="location-text"> <img class="svg" src="./Assets/SVG's/location-pin-alt-1-svgrepo-com.svg" alt="location" /> Lekki, Lagos, Nigeria</p>
+                      <p class="property-price">#2,500,999</p>
+                      <div class="property-flex">
+                          <p> <img class="svg" src="./Assets/SVG's/bed-svgrepo-com.svg" alt=""> 2 Beds. <span> <img style="margin-left: 10px;" class="svg" src="../Assets/SVG's/bath-svgrepo-com.svg" alt=""> 2 Baths</span> </p>
+                      </div>
+                      <div class="property-flex2">
+                          <div>
+                              <p> <img class="svg" src="./Assets/SVG's/time-svgrepo-com.svg" alt="time"> posted a year ago</p>
+                          </div>  
+                          <button class="button-view">View</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="property-box">
+                  <div class="property-relative">
+                    <img class="modern-house" src="./Assets/Images/Modern house 3.jpg" alt="modern house">
+                    <button>For Sale</button>
+                  </div>
+                  <div class="details-box">
+                      <p class="property-text">Modern Apartment</p>
+                      <p class="location-text"> <img class="svg" src="./Assets/SVG's/location-pin-alt-1-svgrepo-com.svg" alt="location" />  Gwarinpa Abuja, Nigeria</p>
+                      <p class="property-price">#3,999,999</p>
+                      <div class="property-flex">
+                          <p> <img class="svg" src="./Assets/SVG's/bed-svgrepo-com.svg" alt=""> 2 Beds. <span> <img style="margin-left: 10px;" class="svg" src="../Assets/SVG's/bath-svgrepo-com.svg" alt=""> 2 Baths</span> </p>
+                      </div>
+                      <div class="property-flex2">
+                          <div>
+                              <p> <img class="svg" src="./Assets/SVG's/time-svgrepo-com.svg" alt="time"> posted a year ago</p>
+                          </div>  
+                          <button class="button-view">View</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="property-box">
+                  <div class="property-relative">
+                    <img class="modern-house" src="./Assets/Images/Apartment 1.jpg" alt="modern house">
+                    <button>For Sale</button>
+                  </div>
+                  <div class="details-box">
+                      <p class="property-text">Interior Apartment</p>
+                      <p class="location-text"> <img class="svg" src="./Assets/SVG's/location-pin-alt-1-svgrepo-com.svg" alt="location" /> Ikotun, Lagos, Nigeria</p>
+                      <p class="property-price">#1,000,000</p>
+                      <div class="property-flex">
+                          <p> <img class="svg" src="./Assets/SVG's/bed-svgrepo-com.svg" alt=""> 1 Bed. <span> <img style="margin-left: 10px;" class="svg" src="../Assets/SVG's/bath-svgrepo-com.svg" alt=""> 1 Bath</span> </p>
+                      </div>
+                      <div class="property-flex2">
+                          <div>
+                              <p> <img class="svg" src="./Assets/SVG's/time-svgrepo-com.svg" alt="time"> posted a year ago</p>
+                          </div>  
+                          <button class="button-view">View</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="property-box">
+                  <div class="property-relative">
+                    <img class="modern-house" src="./Assets/Images/Apartment 2.jpg" alt="modern house">
+                    <button>For Sale</button>
+                  </div>
+                  <div class="details-box">
+                      <p class="property-text">Modern Apartment</p>
+                      <p class="location-text"> <img class="svg" src="./Assets/SVG's/location-pin-alt-1-svgrepo-com.svg" alt="location" /> VI, Lagos, Nigeria</p>
+                      <p class="property-price">#1,540,000</p>
+                      <div class="property-flex">
+                          <p> <img class="svg" src="./Assets/SVG's/bed-svgrepo-com.svg" alt=""> 1 Beds. <span> <img style="margin-left: 10px;" class="svg" src="../Assets/SVG's/bath-svgrepo-com.svg" alt=""> 1 Baths</span> </p>
+                      </div>
+                      <div class="property-flex2">
+                          <div>
+                              <p> <img class="svg" src="./Assets/SVG's/time-svgrepo-com.svg" alt="time"> posted a year ago</p>
+                          </div>  
+                          <button class="button-view">View</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="property-box">
+                  <div class="property-relative">
+                    <img class="modern-house" src="./Assets/Images/House.jpg" alt="modern house">
+                    <button>For Sale</button>
+                  </div>
+                  <div class="details-box">
+                      <p class="property-text">Modern Apartment</p>
+                      <p class="location-text"> <img class="svg" src="./Assets/SVG's/location-pin-alt-1-svgrepo-com.svg" alt="location" /> Abeokuta, Ogun, Nigeria</p>
+                      <p class="property-price">#2,000,000</p>
+                      <div class="property-flex">
+                          <p> <img class="svg" src="./Assets/SVG's/bed-svgrepo-com.svg" alt=""> 2 Beds. <span> <img style="margin-left: 10px;" class="svg" src="../Assets/SVG's/bath-svgrepo-com.svg" alt=""> 2 Baths</span> </p>
+                      </div>
+                      <div class="property-flex2">
+                          <div>
+                              <p> <img class="svg" src="./Assets/SVG's/time-svgrepo-com.svg" alt="time"> posted a year ago</p>
+                          </div>  
+                          <button class="button-view">View</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="property-view">
+                <button id="property-button">View Properties</button>
+          </div>
+      </div>
+      <div id="service-box" >
+            <div id="Services">
+            <button>Our Services</button>
+            <h4>WHY CHOOSE SLIMERENT</h4>
+            <p>Welcome to SlimeRent, your ultimate destination for seamless
+                property solutions. Whether you're renting, buying, selling,
+                leasing, or finding your next home, our user-friendly platform
+                offers comprehensive listings, customizable search filters,
+                and secure transactions. Find exactly what you need
+                with ease at SabiRent, your trusted partner in real estate.
+            </p>
+            </div>
+            <div id="service-flex">
+            <div class="service-flex">
+                <img class="service-image" src="./Assets/SVG's/building-svgrepo-com.svg" alt="building" />
+                <h5>Title Heading</h5>
+                <p>Explore a wide variety of properties for renting, buying,
+                    selling, leasing, or finding, ensuring diverse choices to suit
+                    your needs.
+                </p>
+            </div>
+            <h3></h3>
+            <div class="service-flex">
+                <img class="service-image" src="./Assets/SVG's/building-svgrepo-com.svg" alt="building" />
+                <h5>Title Heading</h5>
+                <p>Explore a wide variety of properties for renting, buying,
+                    selling, leasing, or finding, ensuring diverse choices to suit
+                    your needs.
+                </p>
+            </div>
+            <h3></h3>
+            <div class="service-flex">
+                <img class="service-image" src="./Assets/SVG's/building-svgrepo-com.svg" alt="building" />
+                <h5>Title Heading</h5>
+                <p>Explore a wide variety of properties for renting, buying,
+                    selling, leasing, or finding, ensuring diverse choices to suit
+                    your needs.
+                </p>
+            </div>
+            </div>
+        </div>
+        <div id="agent-box">
+            <div id="agents">
+            <button id="agent-button">Agents</button>
+            <h4>GET CONNECTED TO AGENTS NEAR YOU</h4>
+            <p>Discover your dream home faster with SlimeRent. Connect
+                instantly with trusted local agents who can provide you with 
+                personalized property recommendations and expert advice. 
+                Find the best deals and make informed decisions with ease.
+            </p>
+            </div>
+            <div id="agent-flex">
+                <img src="./Assets/Images/selfie 9.jpg" alt="selfie">
+                <img src="./Assets/Images/selfie 2.jpg" alt="selfie">
+                <img src="./Assets/Images/selfie 3.jpg" alt="selfie">
+                <img src="./Assets/Images/selfie 4.jpg" alt="selfie">
+                <img src="./Assets/Images/selfie 5.jpg" alt="selfie">
+                <img src="./Assets/Images/selfie 6.jpg" alt="selfie">
+                <img src="./Assets/Images/selfie 7.jpg" alt="selfie">
+                <img src="./Assets/Images/selfie 8.jpg" alt="selfie">
+                <img src="./Assets/Images/selfie 1.jpg" alt="selfie">
+                <img src="./Assets/Images/selfie 10.jpg" alt="selfie">
+                
+            </div>
+            <h2></h2>
+            <div id="agent-badge">
+                <div class="badge">
+                    <img class="service-image" src="./Assets/SVG's/verified-svgrepo-com.svg" alt="verified-svgrepo-com">
+                    <span>Verified</span>
+                </div>
+                <div class="badge">
+                    <img class="service-image" src="./Assets/SVG's/professor-walking-arriving-to-his-desk-on-time-for-the-class-svgrepo-com.svg" alt="professor-walking-arriving-to-his-desk-on-time-for-the-class-svgrepo-com">
+                    <span>Punctual</span>
+                </div>
+                <div class="badge">
+                    <img class="service-image" src="./Assets/SVG's/professional-marketplace-svgrepo-com.svg" alt="professional-marketplace-svgrepo-com">
+                    <span>Professional</span>
+                </div>
+            </div>
+            <div id="agent-div">
+                <button id="get-started">Get Started</button>
+                <button id="join">Join as an agent</button>
+            </div>
+        </div>
+        <div id="types-box">
+            <button id="types-button">Property Types</button>
+            <h4>LET’S FIND A HOME THAT IS PERFECT FOR YOU</h4>
+            <div>
+                <img class="medium" src="./Assets/Images/Apartment 1.jpg" alt="Apartment">
+                <img class="medium" src="./Assets/Images/Apartment 4.jpg" alt="Apartment">
+                <img id="large" src="./Assets/Images/Duplex.jpg" alt="Duplex">
+                <img class="medium" src="./Assets/Images/Apartment 2.jpg" alt="Apartment">
+                <img class="medium" src="./Assets/Images/Apartment 3.jpg" alt="Apartment">
+                <button id="large-button">Get Started</button>
+            </div>
+        </div>
+        <div id="question-box">
+            <button id="question-button">What you want to know</button>
+            <h4>FREQUENTLY ASKED QUESTIONS</h4>
+            <img id="Agent-picture" src="./Assets/Images/Agent.jpg" alt="Agent">
+            <div class="faq-container">
+                <div class="faq-question">
+                    <p>How can I list my property on SlimeRent?</p>
+                    <button class="faq-button">&#9660;</button>
+                </div>
+                <div class="faq-question">
+                    <p>What types of properties can I find on SlimeRent?</p>
+                    <button class="faq-button">&#9660;</button>
+                </div>
+                <div class="faq-question">
+                    <p>How do I contact a property owner or agent on SlimeRent?</p>
+                    <button class="faq-button">&#9660;</button>
+                </div>
+                <div class="faq-question">
+                    <p>Can I search for properties based on specific criteria?</p>
+                    <button class="faq-button">&#9660;</button>
+                </div>
+                <div class="faq-question">
+                    <p>Is it free to use SlimeRent?</p>
+                    <button class="faq-button">&#9660;</button>
+                </div>
+            </div>
+        </div>
+        <div id="footer-container">
+            <div id="footer-name">
+                SlimeRent <img id="footer-svg" src="./Assets/SVG's/house-window-svgrepo-com.svg" alt="house" /> </h3>
+            </div>
+            <h5 class="footer-heading">Discover your next home with SlimeRent. Find, lease, or buy houses effortlessly in your area with our user-friendly web application.</h5>
+            <footer>
+                <div class="footer-div">
+                    <h5>© SlimeRent</h5>
+                </div>
+                <div class="footer div">
+                    <h5>Company</h5>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Properties</li>
+                        <li>Agents</li>
+                        <li>Contact Us</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+                <div class="footer-div">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li>Terms of Use</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <h4>Join Our Newsletter</h4>
+                <h5 class="footer-heading">Stay updated on SlimeRent! Sign up for exclusive offers, new 
+                    listings, and real estate trends.
+                </h5>
+                <div id="footer-input">
+                    <input type="text" placeholder="Email Address">
+                    <button>Subscribe</button>
+                </div>
+                <div class="footer-image">
+                    <h5> <img src="./Assets/SVG's/instagram-svgrepo-com.svg" alt="instagram-svgrepo-com"> SlimeRent</h5>
+                    <h5> <img src="./Assets/SVG's/icons8-twitter-50.png" alt="icons8-twitter-50"> SlimeRent</h5>
+                    <h5> <img src="./Assets/SVG's/facebook-svgrepo-com.svg" alt=""> SlimeRent</h5>
+                </div>
+                <h5>© Copyright SlimeRent 2025 All Rights Reserved.</h5>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+  
+
+  
+
+
+  
+
+  
+
+
+
+
+
